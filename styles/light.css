@@ -13,4 +13,12 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+
+    --bg-color: #fff1f7;
+  --bg-image: url('../images/cover-image-light.png');
+}
+
+.theme_light {
+  --bg-color: #fff1f7;
+  --bg-image: url('../images/cover-image-light.png');
 }

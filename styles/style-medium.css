@@ -1,0 +1,8 @@
+  .header {
+    grid-template-columns: 1fr 1fr;
+  }
+
+    .header__title {
+    grid-column: 1;
+    justify-self: start;
+  }

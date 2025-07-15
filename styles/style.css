@@ -223,6 +223,7 @@
   grid-auto-rows: min-content;
   position: relative;
   flex-grow: 1;
+  margin: 40px 10px 10px;
 
 }
 

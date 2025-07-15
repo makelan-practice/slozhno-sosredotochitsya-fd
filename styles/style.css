@@ -1,10 +1,5 @@
-.highlighted-word {
-  text-shadow: 2px 1px 0 var(--accent-color);
-}
-
 .page {
   background-color: var(--bg-color, #000);
-  /* резервный тёмный цвет */
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
@@ -18,14 +13,6 @@
 
 
 .header {
-  /*display: grid;*/
-  /*grid-template-columns: 1fr;*/
-  /*grid-template-rows: auto 1fr auto;*/
-  /*grid-auto-flow: row;*/
-  /*grid-auto-rows: min-content;*/
-  /*min-block-size: 668px;*/
-  /*block-size: 100vb;*/
-
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: row;
@@ -81,27 +68,12 @@
   inset-inline-end: 10px;
 }
 
-
-
-
-/*
-@media (min-width: 768px) {
-  .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-}*/
-
-
-
-
-
 .header__theme-menu {
   display: flex;
   justify-content: flex-start;
   grid-column: 1;
   justify-self: end;
   margin-top: 63px;
-  /*margin-right: 27px;*/
 }
 
 .header__theme-menu-list {
@@ -115,7 +87,7 @@
   font-family: var(--main-font);
   font-size: var(--font-size-md);
   line-height: 23px;
-  color: var(--accent-color);
+  color: var(--header__theme-menu-color);
   background: transparent;
   border: none;
   padding: 0;
@@ -125,14 +97,17 @@
   padding: 1.5px 13px;
 }
 
-.header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--accent-color);
-  outline-offset: 2px;
+.header__theme-menu-button_active {
+  border: 1px solid var(--header__theme-menu-color);
+  cursor: default;
 }
 
-.header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-  cursor: default;
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--bg-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid color-mix(in srgb, var(--header__theme-menu-color) 50%, transparent);
 }
 
 
@@ -147,7 +122,6 @@
   margin-inline: 0px;
   margin-top: 67px;
   color: var(--focus-color);
-  /*letter-spacing: 7px;*/
 }
 
 .header__word-focus {
@@ -160,7 +134,6 @@
   font-size: var(--font-size-md);
   line-height: 1.3;
   color: var(--text-color);
-  /*max-inline-size: 491px;*/
   margin-block-start: 20px;
   margin-inline-start: 0;
   margin-block-end: 0;
@@ -168,20 +141,23 @@
   text-align: start;
   padding: 0px;
   margin: 55px 0px 0px;
+  font-weight: 700;
+}
+
+.highlighted-word {
+  text-shadow: 2px 1px 0 var(--accent-color);
+}
+
+.highlighted-word:hover {
+  outline: 2px solid color-mix(in srgb, var(--links-color) 50%, transparent);
+  outline-offset: 2px;
+}
+
+.highlighted-word:focus-visible {
+  border-bottom: 1px solid var(--links-color);
 }
 
 .title-decor {
-  /*background-color: var(--accent-color);
-  color: var(--bg-color);
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.3;
-  padding: 10px;
-  justify-self: end;
-  align-self: start;
-  max-inline-size: 355px;*/
-
   background-color: var(--accent-color);
   color: var(--bg-color);
   display: block;
@@ -189,33 +165,15 @@
 }
 
 .main {
-  /*display: grid;*/
-  /*grid-template-columns: 1fr;*/
-  /*grid-template-rows: auto 1fr auto;*/
-  /*grid-auto-flow: row;*/
-  /*grid-auto-rows: min-content;*/
-  /*min-block-size: 668px;*/
-  /*block-size: 100vb;*/
-  
-  
-  display: flex; 
+  display: flex;
   flex-direction: column;
-    position: relative;
-  flex-grow: 1;
-  /*grid-template-columns: 1fr;
-  grid-auto-flow: row;
-  grid-auto-rows: min-content;
   position: relative;
   flex-grow: 1;
-  /*padding: 10px;*/
-
-
-
 }
 
 .section_focus_problems,
 .section_concentration_cause,
-.section_concentration_solution{
+.section_concentration_solution {
 
   display: grid;
   grid-template-columns: 1fr;
@@ -224,12 +182,9 @@
   position: relative;
   flex-grow: 1;
   margin: 40px 10px 10px;
-
 }
 
-
-
-.section{
+.section {
   margin: 40px 10px 10px;
 }
 
@@ -265,7 +220,6 @@
   font-weight: 400;
   color: var(--bg-color);
   margin: 20px 0px 10px;
-  
 }
 
 .content-section__text {
@@ -278,12 +232,6 @@
 }
 
 .gallery {
-  
-  /*display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: row;
-  grid-auto-rows: min-content;*/
-  
   display: flex;
   flex-direction: column;
   gap: 10px;

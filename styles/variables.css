@@ -1,12 +1,22 @@
-
 :root {
-  --accent-color: #FF0070;
-  --bg-color: #000028;
-  --bg-image: url('../images/cover-image-dark.png');
 
-  --text-color: #f1b2ce;
-  --focus-color:#DB00FF;
-  --main-font: 'IBM Plex Mono', monospace;    
-  --font-size-xxl: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);/* Очень крупный заголовок */    
-  --font-size-md: 18px;/* Средний текст (основной контент) */
+  /* Основные цвета */
+  --neon-pink: #FF0070;
+  --deep-space: #000028;
+  --soft-blush: #f1b2ce;
+  --electric-purple: #DB00FF;
+  --pink-light: #FFC2E6;
+  --pink-medium: #FF8DCB; 
+
+
+  --accent-color: var(--neon-pink);
+  --bg-color: var(--deep-spac);
+  --bg-image: url('../images/cover-image-dark.png');
+  --text-color: var(--soft-blush);
+  --focus-color: var(--electric-purple);
+  --header__theme-menu-color: var(--neon-pink);
+  --links-color: var(--neon-pink);
+  --main-font: 'IBM Plex Mono', monospace;
+  --font-size-xxl: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-md: 18px;
 }

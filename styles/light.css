@@ -14,11 +14,24 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 
-    --bg-color: #fff1f7;
+  /*--bg-color: #fff1f7;*/
   --bg-image: url('../images/cover-image-light.png');
+
+  --focus-color:var(--pink-light);
+  --accent-color: var(--pink-medium);
+  --text-color: var(--deep-space);
+  --bg-color: var(--deep-space);
+  --header__theme-menu-color: var(--deep-space);
+  --links-color: var(--deep-space);
 }
 
 .theme_light {
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
 }
+
+.theme-light .header__rec{
+  visibility: hidden;
+}
+
+

@@ -1,12 +1,4 @@
 .header__theme-menu {
-  /*grid-column: 1 / -1; 
-  display: flex;
-  justify-content: flex-start;
-  grid-column: 1;
-  justify-self: end;
-  margin-top: 75px;
-  margin-right: 20px;*/
-
   grid-column: 1 / -1;
   justify-self: center;
   align-self: start;
@@ -58,6 +50,6 @@
 }
 
 .footer {
-        margin: 80px 20px 10px;
-        min-height: 729px;
-    }
+  margin: 80px 20px 10px;
+  min-height: 729px;
+}

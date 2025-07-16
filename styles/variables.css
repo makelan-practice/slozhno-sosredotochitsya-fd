@@ -17,6 +17,7 @@
   --focus-color: var(--electric-purple);
   --header__theme-menu-color: var(--neon-pink);
   --header__text-color: var(--neon-pink);
+  --content-text-color:var(--deep-space);
   --links-color: var(--neon-pink);
   --main-font: 'IBM Plex Mono', monospace;
   --font-size-xxl: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

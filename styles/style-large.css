@@ -18,7 +18,7 @@
 }
 
 .section_focus_problems {
-  grid-template-columns: 2fr 3.9fr;
+  grid-template-columns: 1fr 2.05fr;
 }
 
 .section_concentration_cause .content-section__title {
@@ -37,7 +37,7 @@
 }
 
 .section_concentration_solution {
-  grid-template-columns: 2fr 3.9fr;
+  grid-template-columns: 1fr 2.05fr;
 }
 
 .gallery__list {

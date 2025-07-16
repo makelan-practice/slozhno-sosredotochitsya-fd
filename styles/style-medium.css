@@ -35,7 +35,7 @@
 
 .section_focus_problems {
 
-  grid-template-columns: 2fr 3.7fr;
+  grid-template-columns: 1fr 2fr;
   margin: 0px 10px 10px;
 
 }
@@ -64,7 +64,7 @@
 }
 
 .section_concentration_solution {
-  grid-template-columns: 2fr 3.7fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .section_concentration_solution .content-section__title {

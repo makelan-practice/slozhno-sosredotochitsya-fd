@@ -9,7 +9,7 @@
   --focus-color: var(--pink-light);
   --accent-color: var(--pink-medium);
   --text-color: var(--deep-space);
-  --bg-color: var(--deep-space);
+  --bg-color: var(--pink-light-xs);
   --header__theme-menu-color: var(--deep-space);
   --header__text-color: var(--deep-space);
   --links-color: var(--deep-space);
@@ -25,7 +25,7 @@
     --focus-color: var(--pink-light);
     --accent-color: var(--pink-medium);
     --text-color: var(--deep-space);
-    --bg-color: var(--deep-space);
+    --bg-color: var(--pink-light-xs);
     --header__theme-menu-color: var(--deep-space);
     --header__text-color: var(--deep-space);
     --links-color: var(--deep-space);

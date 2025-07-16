@@ -1,5 +1,4 @@
 :root {
-
   /* Основные цвета */
   --neon-pink: #FF0070;
   --deep-space: #353430;
@@ -7,9 +6,7 @@
   --electric-purple: #DB00FF;
   --pink-light: #FFC2E6;
   --pink-light-xs: #FFF1F7;
-  --pink-medium: #FF8DCB;  
-
-
+  --pink-medium: #FF8DCB;
   --accent-color: var(--neon-pink);
   --bg-color: #000028;
   --bg-image: url('../images/cover-image-dark.png');
@@ -17,7 +14,7 @@
   --focus-color: var(--electric-purple);
   --header__theme-menu-color: var(--neon-pink);
   --header__text-color: var(--neon-pink);
-  --content-text-color:var(--deep-space);
+  --content-text-color: var(--deep-space);
   --links-color: var(--neon-pink);
   --main-font: 'IBM Plex Mono', monospace;
   --font-size-xxl: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

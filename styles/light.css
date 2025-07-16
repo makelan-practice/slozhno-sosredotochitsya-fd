@@ -30,4 +30,8 @@
     --header__text-color: var(--deep-space);
     --links-color: var(--deep-space);
   }
+
+  .header__rec {
+    visibility: hidden;
+  }
 }

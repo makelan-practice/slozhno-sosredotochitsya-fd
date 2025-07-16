@@ -24,6 +24,7 @@
 .section_concentration_cause .content-section__title {
   max-inline-size: 350px;
   margin-bottom: 11px;
+  grid-column: 1 / -1;
 }
 
 .header__theme-menu-list {
@@ -33,10 +34,6 @@
 .section_concentration_cause {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px 20px;
-}
-
-.section_concentration_cause .content-section__title {
-  grid-column: 1 / -1;
 }
 
 .section_concentration_solution {

@@ -2,16 +2,16 @@
 
   /* Основные цвета */
   --neon-pink: #FF0070;
-  --deep-space: #000028;
+  --deep-space: #353430;
   --soft-blush: #f1b2ce;
   --electric-purple: #DB00FF;
   --pink-light: #FFC2E6;
   --pink-light-xs: #FFF1F7;
-  --pink-medium: #FF8DCB;
+  --pink-medium: #FF8DCB;  
 
 
   --accent-color: var(--neon-pink);
-  --bg-color: var(--deep-space);
+  --bg-color: #000028;
   --bg-image: url('../images/cover-image-dark.png');
   --text-color: var(--soft-blush);
   --focus-color: var(--electric-purple);

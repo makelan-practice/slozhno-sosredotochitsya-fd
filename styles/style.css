@@ -118,7 +118,6 @@
   text-shadow: 2px 1px 0 var(--accent-color);
   text-decoration: none;
   outline: none;
-  text-decoration: none;
 }
 
 .highlighted-word:hover {

@@ -115,7 +115,7 @@
 }
 
 .highlighted-word {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   outline: none;
 }

@@ -10,9 +10,10 @@
   --accent-color: var(--pink-medium);
   --text-color: var(--deep-space);
   --bg-color: var(--pink-light-xs);
-  --header__theme-menu-color: var(--deep-space);
-  --header__text-color: var(--deep-space);
+  --header-theme-menu-color: var(--deep-space);
+  --header-text-color: var(--deep-space);
   --links-color: var(--deep-space);
+  --content-text-color: var(--deep-space);
 }
 
 .theme-light .header__rec {
@@ -26,9 +27,10 @@
     --accent-color: var(--pink-medium);
     --text-color: var(--deep-space);
     --bg-color: var(--pink-light-xs);
-    --header__theme-menu-color: var(--deep-space);
-    --header__text-color: var(--deep-space);
+    --header-theme-menu-color: var(--deep-space);
+    --header-text-color: var(--deep-space);
     --links-color: var(--deep-space);
+    --content-text-color: var(--deep-space);
   }
 
   .header__rec {

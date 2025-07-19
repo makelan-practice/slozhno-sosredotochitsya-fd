@@ -32,6 +32,7 @@
     --header-text-color: var(--deep-space);
     --links-color: var(--deep-space);
     --content-text-color: var(--deep-space);
+    --focus-footer-shadow-color: var(--pink-medium);
 
   }
 

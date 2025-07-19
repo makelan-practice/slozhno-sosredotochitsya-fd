@@ -58,3 +58,9 @@
 :root.theme-light {
   --focus-footer-shadow-color: var(--neon-pink);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --focus-footer-shadow-color: var(--neon-pink);
+  }
+}

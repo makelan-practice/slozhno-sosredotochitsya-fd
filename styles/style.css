@@ -94,7 +94,7 @@
   font-weight: 700;
   font-size: var(--font-size-xxl);
   line-height: 0.82;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--focus-footer-shadow-color);
   grid-row: 2;
   margin: 0;
   align-self: end;

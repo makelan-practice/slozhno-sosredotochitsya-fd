@@ -4,18 +4,24 @@
 
 .header {
   grid-template-columns: repeat(2, 1fr);
-  margin: 20px 20px 40px;
+  margin: 0px 0px 0px;
+  padding: 0px 20px 0px;
+}
+
+.header__rec {
+  top: 20px;
+  right: 27px;
 }
 
 .header__theme-menu {
   grid-column: 2;
-  margin-bottom: 5px;
+  margin-top: 16px;
 }
 
 .header__title {
   grid-column: 1 / -1;
   white-space: nowrap;
-  margin-bottom: 37px;
+  margin-bottom: 0px;
   margin-left: -20px;
 }
 
@@ -26,11 +32,11 @@
 
 .header__text {
   grid-column: 2;
-  margin: 30px 0px 107px;
+  margin: 0px 0px 20px;
 }
 
 .main {
-  margin: 0px 10px 10px;
+  margin: 60px 10px 0px;
 }
 
 .section_focus_problems {
@@ -114,11 +120,11 @@
 
 .footer {
   min-height: 768px;
-  margin: 70px 20px 0px;
+  margin: 60px 0px 0px;
 }
 
 .footer__title {
-  margin: 0px 0px 40px;
+  margin: 0px 0px 0px;
 }
 
 .gallery__image {
@@ -130,5 +136,11 @@
 }
 
 .decorated-zone::before {
-  bottom: 40px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.decorated-zone::after {
+  top: 20px;
+  right: 20px;
 }
